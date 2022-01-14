@@ -1,0 +1,83 @@
+{
+    "intents": [{
+            "tag": "salutations",
+            "patterns": ["bonjour", "bjr", "salut", "coucou", "rebonjour", "allo", "re bonjour", " bonjour à toi", "resalut"],
+            "responses": ["bonjour,vous etes avec le chatbot esprit dédiee au concour d'admmission. comment je peux vous aidez ? ", "Bienvenue !,vous etes avec le chatbot esprit dédiee au concour d'admmission.  comment je peux vous aidez ?", "salut,vous etes avec le chatbot esprit dédiee au concour d'admmission.  comment je peux vous aidez ?"]
+        },
+        {
+            "tag": "au revoir",
+            "patterns": ["bye", "au revoir et  bonne journée", "à tout l'heure !", "bonne journée", "stop"],
+            "responses": ["bye bye ", "au revoir et bonne journée", "à tout l'heure !", "c'est un plaisir de te parler!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["admino ", "votre non", "quel est votre nom?"],
+            "responses": ["oui mon nom est admino", "admino chatbot  d' Esprit", "je un chatbot pour concours d'adminison ADMINO"]
+        },
+        {
+            "tag": "concours",
+            "patterns": ["concours d'admission", "information sur concours d'admission", "admission", "admission 2021", "admission information"],
+            "responses": ["pour assurér la sécurité et la santé de chaque candidat , le concour d'admmission 21/22 se déroulera entiérement en ligne, et la selection des condidats tunisiens pour des niveaus spésifiques est à travers un test(QCU) "]
+        },
+        {
+            "tag": "test",
+            "patterns": ["test qcu ?", "test de selection", "test", "qcu", "la selection d'entretien", "la selection"],
+            "responses": ["pour le test de selection du l'entretien d'admission , il s'agit d'un test d'une seul réponse , il faut que vous avez 70% de correcte réponse pour que vous etes selection pour l'entrtien  "]
+        },
+        {
+            "tag": "level ",
+            "patterns": ["les niveaus pour s'inscrire au concours ", "level", "niveau educatif", "les niveaus d'inscrire"],
+            "responses": ["pour s'inscrire au concour est selon votre niveau educatif( Exp: bac ,  deux année prépa , lisence , mastre, ....).quel est votre niveau d'etude?"]
+        },
+        {
+            "tag": "bac",
+            "patterns": ["niveau bac ", "titlaire d'un baccalauréat ", "bac"],
+            "responses": ["pour le niveau bac il faut que vous etes titulaire d'un bac (scientifique, economique, technique, ou diplome equivalent). vous n'avez pas un test (qcu) pour l'entretien d'admission , voulez vous passez une demande pour l'entretien?"]
+        },
+        {
+            "tag": "1eme année",
+            "patterns": ["1eme ", "premiere années ", " titulaire de 1ere années prepa"],
+            "responses": ["pour la 1ere années prepa , vous  n'avez pas un test (qcu) pour l'entretien d'admission.  voulez vous passez une demande pour l'entretien?"]
+        },
+        {
+            "tag": "3eme année",
+            "patterns": ["3eme ", "troisieme années ", " titulaire d'une licence", "deuxieme année prepa", "titulaire de 1er années prepa "],
+            "responses": ["pour la 3eme années licence et deuxieme prepa , vous  avez  un test (qcu) pour l'entretien d'admission si vous voulez s'incrir au 3eme années cyle d'ingenieur en infomatique sinon vous n'avez pas un test(qcu), voulez vous passez une demande pour l'entretien?"]
+        },
+        {
+            "tag": "master",
+            "patterns": ["master scientifique", " M1 scientifique", "master technique", " M1 technique", "M1"],
+            "responses": ["pour le master (M1), vous avez un test (qcm) pour l'entretion d'admission si vous voulez s'incrir au 3eme années cyle d'ingenieur en infomatique sinon vous n'avez pas un test(qcu), voulez vous passez une demande pour l'entretien?"]
+        },
+        {
+            "tag": "tarif pour les tunisiens ",
+            "patterns": ["tarif de l'années scolaire pour les tunisiens", " tarif  pour les tunisiens", "les frais de scolaité  pour les tunisiens ", "frais  pour les tunisiens"],
+            "responses": ["les tarif sont les suivants : pour l'ecole d'ingeneieur cours du jour/cours du soir ss prise encharge d'entreprise/ cours de soir avec prise en charge d'entreprise :7700dt/6200dt/7200dt. pour le cycle préparatoire :9000dt. pour master of business administration-mba: 17000dt"]
+        },
+        {
+            "tag": "tarif pour les internationaux",
+            "patterns": ["tarif de l'années scolaire pour les internationaux", " tarif  pour les internationaux", "les frais de scolaité  pour les internationaux ", "frais  pour les internationaux"],
+            "responses": ["les tarif sont les suivants : pour l'ecole d'ingeneieur cours du jour:3000€. pour le cycle préparatoire :3500€. pour hébergement au foyer d'ESPRIT: 900€. pour restauration: 600€ "]
+        },
+        {
+            "tag": "tarif pour les internationaux",
+            "patterns": ["tarif de l'années scolaire pour les internationaux", " tarif  pour les internationaux", "les frais de scolaité  pour les internationaux ", "frais  pour les internationaux"],
+            "responses": ["les tarif sont les suivants : pour l'ecole d'ingeneieur cours du jour:3000€. pour le cycle préparatoire :3500€. pour hébergement au foyer d'ESPRIT: 900€. pour restauration: 600€ "]
+        },
+        {
+            "tag": "Déroulement",
+            "patterns": ["le planing du selection d'admission", " déroulement concours d'admission ", "deroulement"],
+            "responses": ["les eprouves se déroulent selon le planning suivant pour les tunisiens : test(qcu) selon la spécialité / etude de dossier / entretien avec le jury via google meet"]
+        },
+        {
+            "tag": "plus d'informations: ",
+            "patterns": ["plus d'information", "plus info", "site d'esprit"],
+            "responses": [" notre site web : https://esprit.tn/admission/esprit-ingenieur"]
+        },
+        {
+            "tag": "reclamations",
+            "patterns": ["reclamation", "rec", "probleme"],
+            "responses": ["pour les reclamation contacter: 70-250-068 sinon notre mail de reclamation : recalamation.admission2021@esprit.tn "]
+        }
+    ]
+}

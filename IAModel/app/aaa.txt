@@ -1,0 +1,9 @@
+user.user_tests
+tests = db.relationship('Test', 
+                            secondary = users_tests,
+                            backref='test_users')
+
+
+ users = db.relationship('User', 
+                            secondary = users_tests,
+                            backref='user_tests')
